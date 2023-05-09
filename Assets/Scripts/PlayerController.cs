@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy") && hasPowerUp)
         {
-            Debug.Log("collision with" + collision.gameObject.name + "with powerup set to " + hasPowerUp);
+            Debug.Log("collision with" + collision.gameObject.name + "with powerup set to "+ hasPowerUp);
         }
     }
 
